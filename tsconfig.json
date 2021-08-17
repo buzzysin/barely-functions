@@ -5,14 +5,14 @@
     "declaration": true,
     "declarationDir": "types",
     "lib": [
-      "ES7"
+      "ESNext"
     ],
-    "outDir": "dist",
+    "outDir": "lib",
     "paths": {
-      "lib": [
-        "./lib"
+      "src": [
+        "src"
       ]
     },
-    "target": "es3"
+    "target": "ES6"
   }
 }

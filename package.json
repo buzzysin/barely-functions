@@ -1,26 +1,43 @@
 {
-  "name": "barely-functions",
-  "version": "1.0.0",
+  "author": "buzzysin",
   "description": "Unoptimized functions that probably have a library that I refuse to install.",
+  "homepage": "https://github.com/buzzysin/barely-functions#readme",
+  "license": "ISC",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@buzzysin/barely-functions",
+  "version": "0.0.0-alpha-4",
+  "bugs": {
+    "url": "https://github.com/buzzysin/barely-functions/issues"
   },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "array",
+    "object",
+    "number",
+    "linear",
+    "matrix",
+    "vector",
+    "boolean",
+    "function"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/buzzysin/barely-functions.git"
   },
-  "author": "buzzysin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/buzzysin/barely-functions/issues"
-  },
-  "homepage": "https://github.com/buzzysin/barely-functions#readme",
-  "keywords": [],
-  "directories": {
-    "lib": "lib"
-  },
-  "devDependencies": {
-    "typescript": "^4.3.5"
+  "scripts": {
+    "build": "tsc",
+    "postversion": "git push && git push --tags",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test # Think about adding a linter",
+    "test": "echo \"Error: no test specified\"",
+    "version": "git add -A src"
   }
 }

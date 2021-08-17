@@ -14,7 +14,7 @@ export declare const vecAngle: (u: Vec, v: Vec) => number;
 export declare const vecCross: (...vecs: Vec[]) => number[];
 export declare const vecRotate2d: (v: Vec, r: number) => Vec;
 export declare const matNew: (r: number, c: number, fill?: (v: number, i: number, array: Vec) => number) => number[][];
-export declare const matIdentity: (d: number) => (0 | 1)[][];
+export declare const matIdentity: (d: number) => (1 | 0)[][];
 export declare const matMap: (mat: Mat, fn: (n: number, r: number, c: number, v: Vec, m: Mat) => number) => Mat;
 export declare const matRows: (m: Mat) => number;
 export declare const matCols: (m: Mat) => number;
