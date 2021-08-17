@@ -1,0 +1,26 @@
+{
+  "name": "barely-functions",
+  "version": "1.0.0",
+  "description": "Unoptimized functions that probably have a library that I refuse to install.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzzysin/barely-functions.git"
+  },
+  "author": "buzzysin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buzzysin/barely-functions/issues"
+  },
+  "homepage": "https://github.com/buzzysin/barely-functions#readme",
+  "keywords": [],
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

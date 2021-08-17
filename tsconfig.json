@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationDir": "types",
+    "lib": [
+      "ES7"
+    ],
+    "outDir": "dist",
+    "paths": {
+      "lib": [
+        "./lib"
+      ]
+    },
+    "target": "es3"
+  }
+}
